@@ -3,7 +3,7 @@ import SearchBar from './components/SearchBar';
 import searchImages from './api';
 import ImageList from './components/ImageList';
 import './App.css';
-import car from './src/assets/car.webp'
+import carz from './src/assets/carz.webp'
 
 function App() {
   const [images, setImages] = useState ([]);
@@ -20,7 +20,7 @@ function App() {
     <>
 
     <div className="font-bold pb-5">Image <span className='bg-red-600'>Generator</span></div>
-    <img src={car} alt="Car image" />
+    <img src={carz} alt="Car image" />
 
       {/* props */}
       <SearchBar onSubmit={handleSubmit}/>
