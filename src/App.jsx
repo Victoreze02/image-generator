@@ -3,7 +3,7 @@ import SearchBar from './components/SearchBar';
 import searchImages from './api';
 import ImageList from './components/ImageList';
 import './App.css';
-import carz from './src/assets/carz.webp'
+import carz from '/src/assets/carz.webp';
 
 function App() {
   const [images, setImages] = useState ([]);
